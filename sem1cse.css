@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s;
+    font-family:sans-serif;
+}
+body{
+    background: linear-gradient(to right, #00093c, #2d0b00);
+}
+
+.container{
+    text-align: center; 
+    padding: 10px;
+}
+
+.container h1{
+    color: #FFFFFF;
+}
+
+
+.container .form-control{
+    width: 11%;
+    margin-left: 45%;
+}
+
+
+.cgpa_output #btn_sub {
+    border: none;
+    background-color:  #32af76;
+    outline: none;
+    font-size: 20px;
+    font-family: roboto slab;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-left: 46%;
+    color:#fff;
+    box-shadow: inset 5px 5px 5px 0px rgba(255, 255, 255, 0.03),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.2),
+     4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  padding: 5px 20px;
+  }
+
+.cgpa_output #btn_sub:active{
+    box-shadow: inset 5px 5px 5px 0px rgba(255, 255, 255, 0.03),
+    inset 7px 7px 20px 0px rgba(0, 0, 0, 0.2),
+    inset 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  }
